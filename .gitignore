@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python
+env/
+venv/
+lib/
+lib64/
+include/
+bin/
+share/
+*.egg-info/
+.installed.cfg
+*.manifest
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+
+# Streamlit
+# Ignore the directory containing secrets and temporary files
+.streamlit/
+# Ignore any specific data files you don't want tracked (e.g., large CSVs, models)
+# **/uber-raw-data-sep14.csv
+# work-tmp/
+
+# TensorFlow/Machine Learning
+# Ignore saved models (which can be very large) if you are not tracking them with Git LFS
+# saved_models/
+# checkpoints/
+# logs/
+# results/
+# data/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE-specific files (VS Code, PyCharm, etc.)
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
