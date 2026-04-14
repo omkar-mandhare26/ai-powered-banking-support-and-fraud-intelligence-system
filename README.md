@@ -73,13 +73,20 @@ pip install -r requirements.txt
 ### Step 4: Run Data Processing
 
 ```bash
-# Open and run
 understanding_data.ipynb
 ```
 
 ---
 
-### Step 5: Run Application
+### Step 5: Build & Train NLP Models
+
+```bash
+nlp_layer.ipynb
+```
+
+---
+
+### Step 6: Run Application
 
 ```bash
 streamlit run app.py
