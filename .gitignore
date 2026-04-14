@@ -47,4 +47,6 @@ htmlcov/
 .vscode/
 *.swp
 *.swo
+.env
 .DS_Store
+/notes/*
